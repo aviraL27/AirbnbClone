@@ -1,0 +1,248 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar */
+.navbar {
+  height: 80px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Left */
+.nav-left {
+  flex: 1;
+}
+
+.logo{
+    height: 45px;
+    width: auto;    
+    display: block; 
+    cursor: pointer;
+}
+
+/* Center */
+.nav-center {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  width: 520px;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 999px;
+  background: #fff;
+}
+
+.search-item {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  flex: 1;
+  min-width: 120px;
+  padding: 0 12px;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.value {
+  color: #717171;
+}
+
+.divider {
+  width: 1px;
+  height: 28px;
+  background: #ddd;
+}
+
+.search-icon-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #ff385c; /* Airbnb pink */
+  flex-shrink: 0;
+}
+
+/* Right */
+.nav-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.host-text {
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.icon-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #eee;
+  cursor: pointer;
+}
+
+/* Listings container */
+.listings {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* One row */
+.listing-row {
+  display: flex;
+  gap: 24px;
+}
+
+/* Individual card */
+.card {
+  flex: 1;
+  cursor: pointer;
+}
+
+/* Image placeholder */
+.card-img {
+  width: 100%;
+  height: 250px;
+  background: #ddd;          /* placeholder */
+  border-radius: 16px;       /* Airbnb-like rounding */
+}
+
+/* Text below image */
+.card-text {
+  margin-top: 8px;
+}
+
+.place {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 14px;
+  color: #717171;
+}
+
+/* Section wrapper */
+.listing-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Section heading */
+.section-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.footer {
+  background-color: #f7f7f7;
+  padding: 48px 40px;
+  margin-top: 60px;
+  border-top: 1px solid #ddd;
+}
+
+.footer-container {
+  display: flex;
+  gap: 80px;
+}
+
+/* Column */
+.footer-column h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column li {
+  margin-bottom: 12px;
+}
+
+.footer-column a {
+  font-size: 14px;
+  color: #222;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid #ddd;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Left text */
+.footer-bottom-left {
+  font-size: 14px;
+  color: #717171;
+}
+
+.footer-bottom-left a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-bottom-left a:hover {
+  text-decoration: underline;
+}
+
+/* Right icons */
+.footer-bottom-right {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background: #ddd;
+  border-radius: 50%;
+}
